@@ -21,3 +21,5 @@ result
 .vscode/
 *.swp
 *~
+
+.direnv
