@@ -1,0 +1,23 @@
+bootstrap
+lambda.zip
+*.exe
+
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+*.tfvars
+!terraform.tfvars.example
+
+# Go
+vendor/
+
+# Nix
+result
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*~
